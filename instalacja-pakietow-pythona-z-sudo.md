@@ -45,4 +45,6 @@ Wszystkie pakiety Pythona możemy zainstalować korzystając z polecenia:
 $ sudo pip install <nazwa_pakietu>
 ```
 
-Pakiety zainstalowane w ten sposób będą zainstalowane w ścieżkach systemowych, i będą dostępne dla wszystkich użytkowników systemu operacyjnego. Dawanie `pip` uprawnień _root_ [nie jest dobrą praktyką](http://stackoverflow.com/a/21056000/355800). Jeżeli mimo wszystko ufasz instalowanym przez siebie pakietom, taka forma używania `pip` jest najprostsza. Bezpieczniejszą wersją jest korzystanie z `pip`, bez nadawania mu uprawnień _root_. Można to zrobić wykorzystując pakiet `virtualenv`, który współpracuje bezproblemowo z `pip` i jest opisany [w następnym dokumencie](instalacja-pakietow-pythona-z-virtualenv.md).
+Pakiety zainstalowane w ten sposób będą zainstalowane w ścieżkach systemowych, i będą dostępne dla wszystkich użytkowników systemu operacyjnego.
+
+Dawanie `pip` uprawnień _root_ [**nie** jest dobrą praktyką](http://stackoverflow.com/a/21056000/355800). Jeżeli mimo wszystko ufasz instalowanym przez siebie pakietom, taka forma używania `pip` jest najprostsza. Bezpieczniejszą wersją jest korzystanie z `pip`, bez nadawania mu uprawnień _root_. Można to zrobić wykorzystując pakiet `virtualenv`, który współpracuje bezproblemowo z `pip` i jest opisany [w następnym dokumencie](instalacja-pakietow-pythona-z-virtualenv.md).
