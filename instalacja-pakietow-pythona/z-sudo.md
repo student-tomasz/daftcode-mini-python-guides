@@ -14,7 +14,7 @@ Zakładam, że wasza instalacja Pythona jest zupełnie goła. By zainstalować `
 ```text
 $ sudo easy_install pip
 ```
-![](instalacja-pythona/ubuntu-15.10/04.png)
+![](../instalacja-pythona/ubuntu-15.10/04.png)
 
 Jak wspomniałem wcześniej, program `easy_install` jest bardzo prostym (i starym) narzędziem do instalacji gotowych pakietów Pythona, stworzonych za pomocą `setuptools`. Teraz zainstalowaliśmy nowszy, powszechnie używany manager pakietów Pythona `pip`. Program `easy_install` jest częścią `setuptools`. Używamy `sudo` ponieważ jeszcze działamy na poziomie systemowej instalacji Pythona.
 
@@ -23,7 +23,7 @@ Teraz możemy już skorzystać z zainstalowanego `pip` by zaktualizować `setupt
 ```text
 $ sudo pip install -U setuptools
 ```
-![](instalacja-pythona/ubuntu-15.10/05.png)
+![](../instalacja-pythona/ubuntu-15.10/05.png)
 
 W przyszłości, co jakiś czas będziemy chcieli zaktualizować zainstalowane pakiety, w tym również sam `pip`. Można to zrobić wywołując:
 
@@ -47,4 +47,4 @@ $ sudo pip install <nazwa_pakietu>
 
 Pakiety zainstalowane w ten sposób będą zainstalowane w ścieżkach systemowych, i będą dostępne dla wszystkich użytkowników systemu operacyjnego.
 
-Dawanie `pip` uprawnień _root_ [**nie** jest dobrą praktyką](http://stackoverflow.com/a/21056000/355800). Jeżeli mimo wszystko ufasz instalowanym przez siebie pakietom, taka forma używania `pip` jest najprostsza. Bezpieczniejszą wersją jest korzystanie z `pip`, bez nadawania mu uprawnień _root_. Można to zrobić wykorzystując pakiet `virtualenv`, który współpracuje bezproblemowo z `pip` i jest opisany [w następnym dokumencie](instalacja-pakietow-pythona-z-virtualenv.md).
+Dawanie `pip` uprawnień _root_ [**nie** jest dobrą praktyką](http://stackoverflow.com/a/21056000/355800). Jeżeli mimo wszystko ufasz instalowanym przez siebie pakietom, taka forma używania `pip` jest najprostsza. Bezpieczniejszą wersją jest korzystanie z `pip`, bez nadawania mu uprawnień _root_. Można to zrobić wykorzystując pakiet `virtualenv`, który współpracuje bezproblemowo z `pip` i jest opisany [w następnym dokumencie](z-virtualenv.md).

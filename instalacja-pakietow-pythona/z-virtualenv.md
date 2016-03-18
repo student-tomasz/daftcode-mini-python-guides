@@ -10,7 +10,7 @@ Zaktualizujmy `pip` i `setuptools` i zainstalujmy `virtualenv`. Jeszcze z uprawn
 $ sudo pip install --upgrade setuptools pip
 $ sudo pip install --upgrade virtualenv
 ```
-![](instalacja-pythona/ubuntu-15.10/10.png)
+![](../instalacja-pythona/ubuntu-15.10/10.png)
 
 ### Przykład użycia `virtualenv` w projekcie
 
@@ -22,14 +22,14 @@ Najpierw stwórzmy katalog dla projektu:
 $ mkdir -p ~/projects/funds-scraper
 $ cd ~/projects/funds-scraper/
 ```
-![](instalacja-pythona/ubuntu-15.10/11.png)
+![](../instalacja-pythona/ubuntu-15.10/11.png)
 
 Teraz stworzymy wirtualną instalację Pythona na potrzeby naszego projektu i zainstalujemy ją w katalogu `env/` wewnątrz katalogu projektu.
 
 ```text
 $ virtualenv env
 ```
-![](instalacja-pythona/ubuntu-15.10/12.png)
+![](../instalacja-pythona/ubuntu-15.10/12.png)
 
 Jak widać `virtualenv` stworzył katalog `env/`, który zawiera szkielet struktury katalogów systemowych. W katalogu `env/bin/` znajdują się pliki wykonywalne interpretera Pythona -- `python` oraz `pip`. To właśnie ich chcemy używać pracując nad naszym projektem.
 
@@ -39,14 +39,14 @@ Zainstalujmy nasze zależności projektu. Jak wspomniałem, chcemy teraz używa�
 ```text
 $ env/bin/pip install ipython requests beautifulsoup4
 ```
-![](instalacja-pythona/ubuntu-15.10/13.png)
+![](../instalacja-pythona/ubuntu-15.10/13.png)
 
 Wszystko zostało zainstalowane bez problemy. Chcemy sprawdzić, czy faktycznie działa. Ponownie, musimy być pewni, że używamy binarek z naszej wirtualnej instalacji Pythona, więc odwołujemy się bezpośrednio:
 
 ```text
 $ env/bin/ipython
 ```
-![](instalacja-pythona/ubuntu-15.10/14.png)
+![](../instalacja-pythona/ubuntu-15.10/14.png)
 
 Widzimy, że udało się uruchomić `ipython`, a nawet udało się zaimportować i użyć bibliotekę `requests`. Świetnie!
 
@@ -55,7 +55,7 @@ Ale to ciągłe używanie pełnej ścieżki do binarek w końcu zacznie nas dene
 ```text
 $ source env/bin/activate
 ```
-![](instalacja-pythona/ubuntu-15.10/15.png)
+![](../instalacja-pythona/ubuntu-15.10/15.png)
 
 Jak widać na powyższym zrzucie, po załadowaniu skryptu `env/bin/activate`, zmianie uległy zmienna `PATH` jak i ścieżka do interpretera Pythona.
 
@@ -66,7 +66,7 @@ Gdy skończymy pracę nad projektem musimy pamiętać o powrocie do standardowyc
 ```text
 $ deactivate
 ```
-![](instalacja-pythona/ubuntu-15.10/16.png)
+![](../instalacja-pythona/ubuntu-15.10/16.png)
 
 i wszystko wróci do ustawień przed pracą nad projektem.
 
