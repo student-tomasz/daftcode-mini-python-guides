@@ -39,4 +39,4 @@ $ sudo pip install --upgrade setuptools
 ```
 ![](ubuntu-15.10/05.png)
 
-Teraz mamy już w pełni zaktualizowane środowisko do pracy z Pythonem. Przejdźmy do [instalacji pakietów Pythona](../instalacja-pakietow-pythona-z-sudo.md).
+Teraz mamy już w pełni zaktualizowane środowisko do pracy z Pythonem. Przejdźmy do [instalacji pakietów Pythona](../instalacja-pakietow-pythona/z-sudo.md).

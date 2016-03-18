@@ -51,4 +51,4 @@ $ sudo yum groups list
 
 Jak widać, po instalacji, grupa `Development Tools` znajduje się w liście `Installed Groups:`.
 
-Przejdźmy teraz do [instalacji pakietów Pythona](../instalacja-pakietow-pythona-z-sudo.md).
+Przejdźmy teraz do [instalacji pakietów Pythona](../instalacja-pakietow-pythona/z-sudo.md).
