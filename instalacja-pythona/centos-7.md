@@ -1,4 +1,4 @@
-## Instalacja Python 2 na CentOS 7
+## Instalacja Pythona na CentOS 7
 
 Zaczniemy od aktualizacji pakietów systemowych poprzez wywołanie `sudo yum update`. Program `yum` jest menadżerem pakietów systemowych w dystrybucjach bazowanych na Red Hat. Jest analogiem programu `apt-get` z Debiana. Flaga `-y` w poniższej komendzie jest skrótem od `--assumeyes` i odpowiada akceptująco na pytania zadawane przez `yum` podczas aktualizacji.
 
